@@ -1,0 +1,45 @@
+body
+{
+  background-image: url('img/sky.jpg');
+  background-size: cover;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+img
+{
+  width:120px;
+  height: 120px;
+}
+.div
+{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:240px;
+  width:180px;
+  position:relative;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+}
+span
+{
+  color: white;
+  font-size:18px;
+  font-weight: bold;
+  position: absolute;
+  padding:15px;
+  bottom: 0;
+  left: 0;
+}
+
